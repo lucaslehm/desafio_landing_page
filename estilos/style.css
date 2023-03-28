@@ -26,6 +26,7 @@ header {
     width: 50px;
 }
 #head {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.089), transparent);
     padding: 15px 0px;
     display: flex;
     flex-flow: row nowrap;
@@ -34,13 +35,16 @@ header {
 }
 .head-2 a {
     text-decoration: none;
-    font-weight: 500;
-    padding: 10px;
+    font-weight: bold;
+    padding: 7px;
     font-size: 0.7em;
 }
 .head-2 a:hover {
     background-color: #f0f8ff54;
     border-radius: 10px;
+}
+li {
+    text-align: center;
 }
 #main {
     height: 100vh;
@@ -70,10 +74,6 @@ header {
     align-items: center;
     border-top: 2px solid white;
     width: 300px;
-}
-li {
-    margin: 10px 0px;
-    text-align: center;
 }
 h2 {
     text-align: center;
