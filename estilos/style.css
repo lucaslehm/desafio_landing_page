@@ -36,14 +36,14 @@ header {
     text-decoration: none;
     font-weight: 500;
     padding: 10px;
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 .head-2 a:hover {
     background-color: #f0f8ff54;
     border-radius: 10px;
 }
 #main {
-    height: 90vh;
+    height: 100vh;
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
@@ -63,7 +63,7 @@ header {
 }
 .main-3 {
     margin-top: 10px;
-    width: 400px;
+    max-width: 400px;
     text-indent: 10px;
 }
 .barrinha {
@@ -77,7 +77,9 @@ li {
 }
 h2 {
     text-align: center;
+    padding-top: 20px;
     margin-bottom: 20px;
+    border-top: 2px solid white;
 }
 .botao {
     text-align: center;

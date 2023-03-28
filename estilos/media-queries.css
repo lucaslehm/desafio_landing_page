@@ -1,7 +1,25 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 501px){
-    h1 {
-        color: black;
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #main {
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
     }
+    .main-1 h1 {
+        font-size: 2.7em;
+        margin: 14px 0px;
+    }
+    .main-1 p {
+        font-weight: 500;
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+    .main-3 {
+        max-width: 600px;
+        justify-self: center;
+        align-self: center;
+        transform: translate(12%);
+    }
+    
 }
