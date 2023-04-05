@@ -4,50 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Landing Page</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/media-queries.css">
+    <title>LehmBot - O bot para organizar sua comunidade</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div id="head"> 
-            <div class="head-1">
-                <img src="imagens/logo.png" alt="Logo" class="logo">
-            </div>
-            <div class="head-2">
-                <menu class="menu">
-                    <a href="https://github.com/lucaslehm" target="_blank" rel="external">Lucas Lehm</a>
-                    <a href="#">Tutorial</a>
-                    <a href="#">Open Sourse</a>
-                    <a href="#">Comandos</a>
-                </menu>
-            </div>
-        </div>
+    <header class="cabecalho">
+            <img class="cabecalho-logo" src="imagens/logo.png" alt="Logo" class="logo">
+            <nav class="menu">
+                <a class="item-menu" href="https://github.com/lucaslehm" target="_blank" rel="external">Lucas Lehm</a>
+                <a class="item-menu" href="#">Tutorial</a>
+                <a class="item-menu" href="#">Open Sourse</a>
+                <a class="item-menu" href="#">Comandos</a>
+            </nav>
     </header>
-    <main>
-        <div id="main">
-            <section class="main-1">
-                <h1>Lehm Bot</h1>
-                <p>Deixe a sua comunidade segura de um jeito fácil!</p>
-                <a href="#" class="botao">Me adicione!</a>
-            </section>
-            <section class="main-2">
-                <img src="imagens/lehm-bot.png" alt="LehmBot" class="bot">
-            </section>
-            <section class="main-3">
-                <h2>O que ele faz por você?</h2>
-                <ol>
-                    <li>Cria um sistema de verificação capcha para novos membros garantirem que não são robôs</li>
-                    <li>Possui um sistema de banimento automático para links suspeitos que forem enviados na comunidade</li>
-                    <li>Sistema de avisos e banimento manual, para pessoas administradoras utilizarem</li>
-                </ol>
-            </section>
-        </div>
+    <main class="principal">
+        <section class="conteudo-principal">
+            <div class="principal-info">
+                <h1>LehmBot</h1>
+                <h2>Deixe a sua comunidade segura de um jeito fácil!</h2>
+                <button>Me Adicione!</button>
+            </div>
+            <img class="principal-bot" src="imagens/lehm-bot.png" alt="">
+        </section>
+        <section class="second">
+                <h3>O que ele faz por você?</h3>
+                <p class="second-item"><strong>1.</strong> Cria um <strong>sistema de verificação capcha</strong> para novos membros garantirem que não são robôs</p>
+                <p class="second-item"><strong>2.</strong> Possui um <strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidade</p>
+                <p class="second-item"><strong>3.</strong> <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem</p>
+        </section>
     </main>
-    <footer id="foot">
-        <div class="foot-1"><p>Lucas Lehm</p></div>
-        <div class="foot-2"><img src="imagens/logo.png" alt="Logo" class="logo-2"></div>
+    <footer class="rodape">
+        <img class="logo-foot" src="imagens/logo.png" alt="Logo" class="logo-2">
+        <p class="foot-text">Lucas Lehm</p>
     </footer>
 </body>
 </html>
